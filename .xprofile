@@ -1,0 +1,5 @@
+#### LXDM ###
+
+nm-applet &
+blueman-manager &
+xrdb -merge ~/.Xresources   # sources xresouces file
