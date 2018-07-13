@@ -2,10 +2,15 @@
 !Xft.dpi: 100    
 
 ! 
-!URxvt*font:            xft:System San Francisco Term:size=12,xft:Font Awesome:size=12
-URxvt*font:             xft:DejaVu Sans Mono:size=12
+!URxvt*font:             xft:DejaVu Sans Mono:size=12
+URxvt.font:             xft:monospace:size=12
 URxvt*transparent:      true
+URxvt*scrollBar:        false
 URxvt*shading:          30
+URxvt.foreground:       #aaaaaa
+!URxvt.resize-font.smaller:      C-minus
+!URxvt.resize-font.bigger:       C-plus
+URxvt.perl-ext-common: default,tabbed,matcher,resize-font,-tabbed
 ! special
 *.foreground:   #c5c8c6
 *.background:   #1d1f21

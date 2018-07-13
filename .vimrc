@@ -5,7 +5,7 @@ let g:ycm_global_ycm_extra_conf = '/usr/share/vim/vimfiles/third_party/ycmd/cpp/
 "let g:ycm_server_python_interpreter = '/usr/bin/python'
 
 "Enable syntax highlighting"
-syntax enable
+"syntax enable"
 
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
@@ -16,6 +16,9 @@ set rtp+=~/.vim/bundle/Vundle.vim
 	source ~/.vim/vimSettings/pluginSettings.vim
 	source ~/.vim/vimSettings/initSettings.vim
 
+
+execute pathogen#infect()
+syntax on
 filetype plugin indent on  
 " To ignore plugin indent changes, instead use:
 "filetype plugin on
@@ -25,3 +28,8 @@ augroup myvimrc
     au!
     au BufWritePost .vimrc,_vimrc,vimrc,.gvimrc,_gvimrc,gvimrc,*.vim nested so $MYVIMRC | if has('gui_running') | so $MYGVIMRC | endif
 augroup END
+
+"Latex auto preview setting"
+
+map I :! pdflatex %<CR><CR>
+map S :! mupdf-x11 $(echo % \| sed 's/tex$/pdf/') & disown<CR><CR>

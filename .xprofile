@@ -2,4 +2,6 @@
 
 nm-applet &
 blueman-manager &
+#conky -c    ~/.conkycolors/conkyrc &
+
 xrdb -merge ~/.Xresources   # sources xresouces file
