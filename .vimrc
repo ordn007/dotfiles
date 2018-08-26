@@ -16,6 +16,8 @@ set rtp+=~/.vim/bundle/Vundle.vim
 	source ~/.vim/vimSettings/pluginSettings.vim
 	source ~/.vim/vimSettings/initSettings.vim
 
+" set the runtime path to imclude ctrlp
+set runtimepath^=~/.vim/bundle/ctrlp.vim
 
 execute pathogen#infect()
 syntax on

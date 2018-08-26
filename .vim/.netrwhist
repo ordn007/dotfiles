@@ -1,5 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_cnt =9
 let g:netrw_dirhist_1='/home/orden/.qgis2/python/plugins/fieldstats'
 let g:netrw_dirhist_2='/home/orden/.qgis2/python/plugins/FS3'
 let g:netrw_dirhist_3='/home/orden/.qgis2/python/plugins/FS3/scripts'
@@ -8,3 +8,4 @@ let g:netrw_dirhist_5='/home/orden/.qgis2/python/plugins/FS3/help'
 let g:netrw_dirhist_6='/home/orden/.qgis2/python/plugins/FS3/unit_test'
 let g:netrw_dirhist_7='/usr'
 let g:netrw_dirhist_8='/home/orden/.config'
+let g:netrw_dirhist_9='/home/orden/.vim'
