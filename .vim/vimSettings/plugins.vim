@@ -63,4 +63,4 @@ Plugin 'pangloss/vim-javascript'
 Plugin 'mxw/vim-jsx'
 
 " +++ PYTHON +++
-
+Plugin 'vim-live-latex-preview'

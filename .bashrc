@@ -46,9 +46,10 @@ export PROMPT_COMMAND=prompt_command
 alias ls='ls --color=auto'
 alias Ls=ls
 alias LS=ls
+alias usb='cd /run/media/orden'
 
 # Auto start neofetch whenever the terminal opens
 neofetch
 
-
-
+# Specifys where to look for program ( look in this paths also)
+export PATH="$PATH:$HOME/.local/bin"
