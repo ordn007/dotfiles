@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/orden/Documents/2019/spring_19/csci101/python-lectures" added="2019-01-12T15:57:18Z" modified="2019-01-12T15:57:18Z" visited="2019-01-12T15:57:18.161555Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gThumb" exec="&apos;gthumb %u&apos;" modified="2019-01-12T15:57:18Z" count="1"/>
+        </bookmark:applications>
+        <bookmark:private/>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/orden" added="2019-01-12T15:57:18Z" modified="2019-01-12T15:57:18Z" visited="2019-01-12T15:57:18.161580Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gThumb" exec="&apos;gthumb %u&apos;" modified="2019-01-12T15:57:18Z" count="1"/>
+        </bookmark:applications>
+        <bookmark:private/>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///run/media/orden/9016-4EF8/DCIM/101D5300" added="2019-01-12T15:57:18Z" modified="2019-01-12T15:57:18Z" visited="2019-01-12T15:57:18.161595Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gThumb" exec="&apos;gthumb %u&apos;" modified="2019-01-12T15:57:18Z" count="1"/>
+        </bookmark:applications>
+        <bookmark:private/>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/orden/Desktop/Stacia" added="2019-01-12T15:57:18Z" modified="2019-01-12T15:57:18Z" visited="2019-01-12T15:57:18.161610Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gThumb" exec="&apos;gthumb %u&apos;" modified="2019-01-12T15:57:18Z" count="1"/>
+        </bookmark:applications>
+        <bookmark:private/>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="catalog:///Command%20Line.catalog" added="2019-01-12T15:57:18Z" modified="2019-01-12T15:57:18Z" visited="2019-01-12T15:57:18.161622Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gThumb" exec="&apos;gthumb %u&apos;" modified="2019-01-12T15:57:18Z" count="1"/>
+        </bookmark:applications>
+        <bookmark:private/>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

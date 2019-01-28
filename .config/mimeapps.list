@@ -1,0 +1,28 @@
+[Added Associations]
+application/pdf=firefox.desktop;libreoffice-draw.desktop;
+text/plain=code-oss.desktop;libreoffice-writer.desktop;atom.desktop;vim.desktop;
+inode/blockdevice=Thunar.desktop;
+image/jpeg=org.gnome.gThumb.desktop;
+image/png=org.gnome.gThumb.desktop;
+application/vnd.openxmlformats-officedocument.wordprocessingml.document=libreoffice-writer.desktop;
+application/vnd.oasis.opendocument.text=libreoffice-writer.desktop;
+text/x-python=code-oss.desktop;atom.desktop;libreoffice-writer.desktop;
+application/javascript=atom.desktop;
+image/x-gimp-gbr=org.gnome.gThumb.desktop;
+text/x-makefile=vim.desktop;
+video/x-msvideo=mpv.desktop;
+video/mp4=mpv.desktop;
+application/x-php=atom.desktop;
+audio/mpeg=mpv.desktop;
+audio/x-ms-wma=mpv.desktop;
+application/vnd.openxmlformats-officedocument.presentationml.presentation=libreoffice-impress.desktop;
+application/sql=code-oss.desktop;
+text/x-csrc=vim.desktop;
+text/x-processing=processing-pde.desktop;
+text/x-arduino=arduino-arduinoide.desktop;
+text/x-c++src=code-oss.desktop;vim.desktop;
+text/csv=libreoffice-calc.desktop;
+application/x-java-archive=java-java10-openjdk.desktop;
+
+[Default Applications]
+text/x-arduino=arduino-arduinoide.desktop

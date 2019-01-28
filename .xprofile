@@ -1,0 +1,3 @@
+xrdb -merge ~/.Xresources	# sources xresouces file
+# blueman-manager &
+dropbox &

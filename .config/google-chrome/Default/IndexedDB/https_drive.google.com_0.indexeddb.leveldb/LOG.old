@@ -1,0 +1,521 @@
+2018/12/13-04:47:25.417 4cbe Reusing MANIFEST /home/orden/.config/google-chrome/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2018/12/13-04:47:25.417 4cbe Recovering log #18
+2018/12/13-04:47:25.417 4cbe Reusing old log /home/orden/.config/google-chrome/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/000018.log 
+2018/12/13-04:47:36.388 520b Level-0 table #24: started
+2018/12/13-04:47:36.444 520b Level-0 table #24: 13819881 bytes OK
+2018/12/13-04:47:36.449 520b Delete type=0 #18
+2018/12/13-04:47:36.451 520b Compacting 1@1 + 2@2 files
+2018/12/13-04:47:36.530 520b Generated table #25@1: 58 keys, 13767337 bytes
+2018/12/13-04:47:36.607 520b Generated table #26@1: 1 keys, 15451508 bytes
+2018/12/13-04:47:36.612 520b Generated table #27@1: 8 keys, 1661 bytes
+2018/12/13-04:47:36.612 520b Compacted 1@1 + 2@2 files => 29220506 bytes
+2018/12/13-04:47:36.615 520b compacted to: files[ 0 0 3 0 0 0 0 ]
+2018/12/13-04:47:36.615 520b Delete type=2 #20
+2018/12/13-04:47:36.617 520b Delete type=2 #24
+2018/12/13-04:47:36.619 520b Delete type=2 #21
+2018/12/13-04:47:38.390 520b Level-0 table #29: started
+2018/12/13-04:47:38.470 520b Level-0 table #29: 15451676 bytes OK
+2018/12/13-04:47:38.475 520b Delete type=0 #23
+2018/12/13-04:47:41.473 520b Level-0 table #31: started
+2018/12/13-04:47:41.538 4d8c Current memtable full; waiting...
+2018/12/13-04:47:41.554 520b Level-0 table #31: 13716593 bytes OK
+2018/12/13-04:47:41.560 520b Delete type=0 #28
+2018/12/13-04:47:41.563 520b Level-0 table #33: started
+2018/12/13-04:47:41.644 520b Level-0 table #33: 15451676 bytes OK
+2018/12/13-04:47:41.649 520b Delete type=0 #30
+2018/12/13-04:48:18.307 520b Level-0 table #35: started
+2018/12/13-04:48:18.360 520b Level-0 table #35: 13716590 bytes OK
+2018/12/13-04:48:18.363 4cc7 Current memtable full; waiting...
+2018/12/13-04:48:18.368 520b Delete type=0 #32
+2018/12/13-04:48:18.370 520b Compacting 4@0 + 0@1 files
+2018/12/13-04:48:18.393 520b Level-0 table #37: started
+2018/12/13-04:48:18.455 520b Level-0 table #37: 15451673 bytes OK
+2018/12/13-04:48:18.461 520b Delete type=0 #34
+2018/12/13-04:48:18.526 520b Generated table #38@0: 5 keys, 13716246 bytes
+2018/12/13-04:48:18.597 520b Generated table #39@0: 1 keys, 15451515 bytes
+2018/12/13-04:48:18.603 520b Generated table #40@0: 4 keys, 538 bytes
+2018/12/13-04:48:18.603 520b Compacted 4@0 + 0@1 files => 29168299 bytes
+2018/12/13-04:48:18.607 520b compacted to: files[ 1 3 3 0 0 0 0 ]
+2018/12/13-04:48:18.607 520b Delete type=2 #33
+2018/12/13-04:48:18.611 520b Delete type=2 #31
+2018/12/13-04:48:18.615 520b Delete type=2 #29
+2018/12/13-04:48:18.618 520b Delete type=2 #35
+2018/12/13-04:48:18.620 520b Compacting 1@1 + 1@2 files
+2018/12/13-04:48:18.691 520b Generated table #41@1: 58 keys, 13767335 bytes
+2018/12/13-04:48:18.693 520b Compacted 1@1 + 1@2 files => 13767335 bytes
+2018/12/13-04:48:18.696 520b compacted to: files[ 1 2 3 0 0 0 0 ]
+2018/12/13-04:48:18.696 520b Delete type=2 #25
+2018/12/13-04:48:18.698 520b Delete type=2 #38
+2018/12/13-04:48:18.700 520b Compacting 1@1 + 1@2 files
+2018/12/13-04:48:18.778 520b Generated table #42@1: 1 keys, 15451515 bytes
+2018/12/13-04:48:18.781 520b Compacted 1@1 + 1@2 files => 15451515 bytes
+2018/12/13-04:48:18.784 520b compacted to: files[ 1 1 3 0 0 0 0 ]
+2018/12/13-04:48:18.784 520b Delete type=2 #39
+2018/12/13-04:48:18.787 520b Delete type=2 #26
+2018/12/13-04:49:34.206 520b Level-0 table #44: started
+2018/12/13-04:49:34.245 4cc7 Current memtable full; waiting...
+2018/12/13-04:49:34.251 520b Level-0 table #44: 13716590 bytes OK
+2018/12/13-04:49:34.256 520b Delete type=0 #36
+2018/12/13-04:49:34.262 520b Level-0 table #46: started
+2018/12/13-04:49:34.330 520b Level-0 table #46: 15451673 bytes OK
+2018/12/13-04:49:34.335 520b Delete type=0 #43
+2018/12/13-04:52:05.908 520b Level-0 table #48: started
+2018/12/13-04:52:05.954 4cc7 Current memtable full; waiting...
+2018/12/13-04:52:05.963 520b Level-0 table #48: 13716591 bytes OK
+2018/12/13-04:52:05.967 520b Delete type=0 #45
+2018/12/13-04:52:05.970 520b Compacting 4@0 + 1@1 files
+2018/12/13-04:52:05.993 520b Level-0 table #50: started
+2018/12/13-04:52:06.052 520b Level-0 table #50: 15451674 bytes OK
+2018/12/13-04:52:06.058 520b Delete type=0 #47
+2018/12/13-04:52:06.124 520b Generated table #51@0: 5 keys, 13716246 bytes
+2018/12/13-04:52:06.189 520b Generated table #52@0: 1 keys, 15451512 bytes
+2018/12/13-04:52:06.194 520b Generated table #53@0: 4 keys, 540 bytes
+2018/12/13-04:52:06.194 520b Compacted 4@0 + 1@1 files => 29168298 bytes
+2018/12/13-04:52:06.200 520b compacted to: files[ 1 3 3 0 0 0 0 ]
+2018/12/13-04:52:06.200 520b Delete type=2 #48
+2018/12/13-04:52:06.202 520b Delete type=2 #44
+2018/12/13-04:52:06.204 520b Delete type=2 #40
+2018/12/13-04:52:06.204 520b Delete type=2 #37
+2018/12/13-04:52:06.206 520b Delete type=2 #46
+2018/12/13-04:52:06.209 520b Compacting 1@1 + 1@2 files
+2018/12/13-04:52:06.213 520b Generated table #54@1: 8 keys, 1663 bytes
+2018/12/13-04:52:06.213 520b Compacted 1@1 + 1@2 files => 1663 bytes
+2018/12/13-04:52:06.216 520b compacted to: files[ 1 2 3 0 0 0 0 ]
+2018/12/13-04:52:06.216 520b Delete type=2 #53
+2018/12/13-04:52:06.216 520b Delete type=2 #27
+2018/12/13-04:52:06.217 520b Compacting 1@1 + 1@2 files
+2018/12/13-04:52:06.291 520b Generated table #55@1: 58 keys, 13767341 bytes
+2018/12/13-04:52:06.293 520b Compacted 1@1 + 1@2 files => 13767341 bytes
+2018/12/13-04:52:06.297 520b compacted to: files[ 1 1 3 0 0 0 0 ]
+2018/12/13-04:52:06.297 520b Delete type=2 #51
+2018/12/13-04:52:06.299 520b Delete type=2 #41
+2018/12/13-04:52:06.301 520b Compacting 1@1 + 1@2 files
+2018/12/13-04:52:06.380 520b Generated table #56@1: 1 keys, 15451512 bytes
+2018/12/13-04:52:06.385 520b Compacted 1@1 + 1@2 files => 15451512 bytes
+2018/12/13-04:52:06.387 520b compacted to: files[ 1 0 3 0 0 0 0 ]
+2018/12/13-04:52:06.388 520b Delete type=2 #52
+2018/12/13-04:52:06.391 520b Delete type=2 #42
+2018/12/13-05:33:10.140 520b Level-0 table #58: started
+2018/12/13-05:33:10.200 4cc7 Current memtable full; waiting...
+2018/12/13-05:33:10.205 520b Level-0 table #58: 13767858 bytes OK
+2018/12/13-05:33:10.210 520b Delete type=0 #49
+2018/12/13-05:33:10.212 520b Level-0 table #60: started
+2018/12/13-05:33:10.277 520b Level-0 table #60: 15451674 bytes OK
+2018/12/13-05:33:10.284 520b Delete type=0 #57
+2018/12/13-08:57:00.822 520b Level-0 table #62: started
+2018/12/13-08:57:00.871 6193 Current memtable full; waiting...
+2018/12/13-08:57:00.885 520b Level-0 table #62: 13820360 bytes OK
+2018/12/13-08:57:00.891 520b Delete type=0 #59
+2018/12/13-08:57:00.893 520b Compacting 4@0 + 0@1 files
+2018/12/13-08:57:00.902 520b Level-0 table #64: started
+2018/12/13-08:57:00.967 520b Level-0 table #64: 15451674 bytes OK
+2018/12/13-08:57:00.972 520b Delete type=0 #61
+2018/12/13-08:57:01.050 520b Generated table #65@0: 7 keys, 13766435 bytes
+2018/12/13-08:57:01.116 520b Generated table #66@0: 1 keys, 15451512 bytes
+2018/12/13-08:57:01.121 520b Generated table #67@0: 8 keys, 2025 bytes
+2018/12/13-08:57:01.121 520b Compacted 4@0 + 0@1 files => 29219972 bytes
+2018/12/13-08:57:01.125 520b compacted to: files[ 1 3 3 0 0 0 0 ]
+2018/12/13-08:57:01.126 520b Delete type=2 #60
+2018/12/13-08:57:01.132 520b Delete type=2 #62
+2018/12/13-08:57:01.137 520b Delete type=2 #50
+2018/12/13-08:57:01.142 520b Delete type=2 #58
+2018/12/13-08:57:01.145 520b Compacting 1@1 + 1@2 files
+2018/12/13-08:57:01.151 520b Generated table #68@1: 8 keys, 2025 bytes
+2018/12/13-08:57:01.151 520b Compacted 1@1 + 1@2 files => 2025 bytes
+2018/12/13-08:57:01.155 520b compacted to: files[ 1 2 3 0 0 0 0 ]
+2018/12/13-08:57:01.155 520b Delete type=2 #67
+2018/12/13-08:57:01.155 520b Delete type=2 #54
+2018/12/13-08:57:01.155 520b Compacting 1@1 + 1@2 files
+2018/12/13-08:57:01.230 520b Generated table #69@1: 58 keys, 13767421 bytes
+2018/12/13-08:57:01.232 520b Compacted 1@1 + 1@2 files => 13767421 bytes
+2018/12/13-08:57:01.236 520b compacted to: files[ 1 1 3 0 0 0 0 ]
+2018/12/13-08:57:01.236 520b Delete type=2 #65
+2018/12/13-08:57:01.238 520b Delete type=2 #55
+2018/12/13-08:57:01.240 520b Compacting 1@1 + 1@2 files
+2018/12/13-08:57:01.318 520b Generated table #70@1: 1 keys, 15451512 bytes
+2018/12/13-08:57:01.321 520b Compacted 1@1 + 1@2 files => 15451512 bytes
+2018/12/13-08:57:01.324 520b compacted to: files[ 1 0 3 0 0 0 0 ]
+2018/12/13-08:57:01.324 520b Delete type=2 #66
+2018/12/13-08:57:01.326 520b Delete type=2 #56
+2018/12/13-09:55:51.035 520b Level-0 table #72: started
+2018/12/13-09:55:51.081 5832 Current memtable full; waiting...
+2018/12/13-09:55:51.094 520b Level-0 table #72: 13768307 bytes OK
+2018/12/13-09:55:51.099 520b Delete type=0 #63
+2018/12/13-09:55:51.101 520b Level-0 table #74: started
+2018/12/13-09:55:51.168 520b Level-0 table #74: 15451674 bytes OK
+2018/12/13-09:55:51.173 520b Delete type=0 #71
+2018/12/13-10:05:51.109 520b Level-0 table #76: started
+2018/12/13-10:05:51.146 6193 Current memtable full; waiting...
+2018/12/13-10:05:51.151 520b Level-0 table #76: 13716588 bytes OK
+2018/12/13-10:05:51.156 520b Delete type=0 #73
+2018/12/13-10:05:51.158 520b Compacting 4@0 + 0@1 files
+2018/12/13-10:05:51.164 520b Level-0 table #78: started
+2018/12/13-10:05:51.221 520b Level-0 table #78: 15451670 bytes OK
+2018/12/13-10:05:51.227 520b Delete type=0 #75
+2018/12/13-10:05:51.296 520b Generated table #79@0: 7 keys, 13766430 bytes
+2018/12/13-10:05:51.358 520b Generated table #80@0: 1 keys, 15451512 bytes
+2018/12/13-10:05:51.363 520b Generated table #81@0: 8 keys, 2025 bytes
+2018/12/13-10:05:51.363 520b Compacted 4@0 + 0@1 files => 29219967 bytes
+2018/12/13-10:05:51.366 520b compacted to: files[ 1 3 3 0 0 0 0 ]
+2018/12/13-10:05:51.367 520b Delete type=2 #64
+2018/12/13-10:05:51.372 520b Delete type=2 #72
+2018/12/13-10:05:51.377 520b Delete type=2 #74
+2018/12/13-10:05:51.382 520b Delete type=2 #76
+2018/12/13-10:05:51.385 520b Compacting 1@1 + 1@2 files
+2018/12/13-10:05:51.389 520b Generated table #82@1: 8 keys, 2025 bytes
+2018/12/13-10:05:51.389 520b Compacted 1@1 + 1@2 files => 2025 bytes
+2018/12/13-10:05:51.393 520b compacted to: files[ 1 2 3 0 0 0 0 ]
+2018/12/13-10:05:51.393 520b Delete type=2 #68
+2018/12/13-10:05:51.393 520b Delete type=2 #81
+2018/12/13-10:05:51.393 520b Compacting 1@1 + 1@2 files
+2018/12/13-10:05:51.464 520b Generated table #83@1: 58 keys, 13767416 bytes
+2018/12/13-10:05:51.466 520b Compacted 1@1 + 1@2 files => 13767416 bytes
+2018/12/13-10:05:51.469 520b compacted to: files[ 1 1 3 0 0 0 0 ]
+2018/12/13-10:05:51.469 520b Delete type=2 #69
+2018/12/13-10:05:51.471 520b Delete type=2 #79
+2018/12/13-10:05:51.473 520b Compacting 1@1 + 1@2 files
+2018/12/13-10:05:51.559 520b Generated table #84@1: 1 keys, 15451512 bytes
+2018/12/13-10:05:51.561 520b Compacted 1@1 + 1@2 files => 15451512 bytes
+2018/12/13-10:05:51.565 520b compacted to: files[ 1 0 3 0 0 0 0 ]
+2018/12/13-10:05:51.565 520b Delete type=2 #70
+2018/12/13-10:05:51.567 520b Delete type=2 #80
+2018/12/13-10:15:51.985 520b Level-0 table #86: started
+2018/12/13-10:15:52.021 6193 Current memtable full; waiting...
+2018/12/13-10:15:52.027 520b Level-0 table #86: 13716588 bytes OK
+2018/12/13-10:15:52.034 520b Delete type=0 #77
+2018/12/13-10:15:52.039 520b Level-0 table #88: started
+2018/12/13-10:15:52.110 520b Level-0 table #88: 15451671 bytes OK
+2018/12/13-10:15:52.115 520b Delete type=0 #85
+2018/12/13-10:25:52.619 520b Level-0 table #90: started
+2018/12/13-10:25:52.659 6591 Current memtable full; waiting...
+2018/12/13-10:25:52.668 520b Level-0 table #90: 13716593 bytes OK
+2018/12/13-10:25:52.672 520b Delete type=0 #87
+2018/12/13-10:25:52.675 520b Compacting 4@0 + 0@1 files
+2018/12/13-10:25:52.692 520b Level-0 table #92: started
+2018/12/13-10:25:52.757 520b Level-0 table #92: 15451673 bytes OK
+2018/12/13-10:25:52.761 520b Delete type=0 #89
+2018/12/13-10:25:52.820 520b Generated table #93@0: 5 keys, 13716245 bytes
+2018/12/13-10:25:52.876 520b Generated table #94@0: 1 keys, 15451509 bytes
+2018/12/13-10:25:52.879 520b Generated table #95@0: 4 keys, 541 bytes
+2018/12/13-10:25:52.880 520b Compacted 4@0 + 0@1 files => 29168295 bytes
+2018/12/13-10:25:52.883 520b compacted to: files[ 1 3 3 0 0 0 0 ]
+2018/12/13-10:25:52.883 520b Delete type=2 #90
+2018/12/13-10:25:52.888 520b Delete type=2 #88
+2018/12/13-10:25:52.892 520b Delete type=2 #78
+2018/12/13-10:25:52.895 520b Delete type=2 #86
+2018/12/13-10:25:52.897 520b Compacting 1@1 + 1@2 files
+2018/12/13-10:25:52.901 520b Generated table #96@1: 8 keys, 2025 bytes
+2018/12/13-10:25:52.901 520b Compacted 1@1 + 1@2 files => 2025 bytes
+2018/12/13-10:25:52.905 520b compacted to: files[ 1 2 3 0 0 0 0 ]
+2018/12/13-10:25:52.905 520b Delete type=2 #95
+2018/12/13-10:25:52.905 520b Delete type=2 #82
+2018/12/13-10:25:52.905 520b Compacting 1@1 + 1@2 files
+2018/12/13-10:25:52.979 520b Generated table #97@1: 58 keys, 13767419 bytes
+2018/12/13-10:25:52.980 520b Compacted 1@1 + 1@2 files => 13767419 bytes
+2018/12/13-10:25:52.984 520b compacted to: files[ 1 1 3 0 0 0 0 ]
+2018/12/13-10:25:52.984 520b Delete type=2 #93
+2018/12/13-10:25:52.986 520b Delete type=2 #83
+2018/12/13-10:25:52.988 520b Compacting 1@1 + 1@2 files
+2018/12/13-10:25:53.057 520b Generated table #98@1: 1 keys, 15451509 bytes
+2018/12/13-10:25:53.059 520b Compacted 1@1 + 1@2 files => 15451509 bytes
+2018/12/13-10:25:53.063 520b compacted to: files[ 1 0 3 0 0 0 0 ]
+2018/12/13-10:25:53.063 520b Delete type=2 #94
+2018/12/13-10:25:53.066 520b Delete type=2 #84
+2018/12/13-10:45:53.934 520b Level-0 table #100: started
+2018/12/13-10:45:53.981 6863 Current memtable full; waiting...
+2018/12/13-10:45:53.993 520b Level-0 table #100: 13766830 bytes OK
+2018/12/13-10:45:53.997 520b Delete type=0 #91
+2018/12/13-10:45:53.999 520b Level-0 table #102: started
+2018/12/13-10:45:54.072 520b Level-0 table #102: 15451672 bytes OK
+2018/12/13-10:45:54.077 520b Delete type=0 #99
+2018/12/13-11:15:55.495 520b Level-0 table #104: started
+2018/12/13-11:15:55.546 520b Level-0 table #104: 13716589 bytes OK
+2018/12/13-11:15:55.551 520b Delete type=0 #101
+2018/12/13-11:15:55.553 520b Compacting 4@0 + 0@1 files
+2018/12/13-11:15:55.568 520b Level-0 table #107: started
+2018/12/13-11:15:55.622 520b Level-0 table #107: 15451673 bytes OK
+2018/12/13-11:15:55.627 520b Delete type=0 #103
+2018/12/13-11:15:55.678 520b Generated table #105@0: 7 keys, 13766432 bytes
+2018/12/13-11:15:55.743 520b Generated table #108@0: 1 keys, 15451510 bytes
+2018/12/13-11:15:55.747 520b Generated table #109@0: 6 keys, 565 bytes
+2018/12/13-11:15:55.747 520b Compacted 4@0 + 0@1 files => 29218507 bytes
+2018/12/13-11:15:55.751 520b compacted to: files[ 1 3 3 0 0 0 0 ]
+2018/12/13-11:15:55.751 520b Delete type=2 #100
+2018/12/13-11:15:55.753 520b Delete type=2 #104
+2018/12/13-11:15:55.754 520b Delete type=2 #92
+2018/12/13-11:15:55.756 520b Delete type=2 #102
+2018/12/13-11:15:55.759 520b Compacting 1@1 + 1@2 files
+2018/12/13-11:15:55.764 520b Generated table #110@1: 8 keys, 2025 bytes
+2018/12/13-11:15:55.764 520b Compacted 1@1 + 1@2 files => 2025 bytes
+2018/12/13-11:15:55.767 520b compacted to: files[ 1 2 3 0 0 0 0 ]
+2018/12/13-11:15:55.768 520b Delete type=2 #96
+2018/12/13-11:15:55.768 520b Delete type=2 #109
+2018/12/13-11:15:55.768 520b Compacting 1@1 + 1@2 files
+2018/12/13-11:15:55.832 520b Generated table #111@1: 58 keys, 13767418 bytes
+2018/12/13-11:15:55.834 520b Compacted 1@1 + 1@2 files => 13767418 bytes
+2018/12/13-11:15:55.837 520b compacted to: files[ 1 1 3 0 0 0 0 ]
+2018/12/13-11:15:55.837 520b Delete type=2 #105
+2018/12/13-11:15:55.839 520b Delete type=2 #97
+2018/12/13-11:15:55.841 520b Compacting 1@1 + 1@2 files
+2018/12/13-11:15:55.918 520b Generated table #112@1: 1 keys, 15451510 bytes
+2018/12/13-11:15:55.920 520b Compacted 1@1 + 1@2 files => 15451510 bytes
+2018/12/13-11:15:55.923 520b compacted to: files[ 1 0 3 0 0 0 0 ]
+2018/12/13-11:15:55.923 520b Delete type=2 #108
+2018/12/13-11:15:55.925 520b Delete type=2 #98
+2018/12/13-14:39:47.979 520b Level-0 table #114: started
+2018/12/13-14:39:48.027 520b Level-0 table #114: 13768305 bytes OK
+2018/12/13-14:39:48.032 520b Delete type=0 #106
+2018/12/13-14:39:48.036 520b Level-0 table #116: started
+2018/12/13-14:39:48.093 520b Level-0 table #116: 15451672 bytes OK
+2018/12/13-14:39:48.097 520b Delete type=0 #113
+2018/12/13-14:49:48.987 520b Level-0 table #118: started
+2018/12/13-14:49:49.040 520b Level-0 table #118: 13716591 bytes OK
+2018/12/13-14:49:49.042 6e8c Current memtable full; waiting...
+2018/12/13-14:49:49.047 520b Delete type=0 #115
+2018/12/13-14:49:49.049 520b Compacting 4@0 + 0@1 files
+2018/12/13-14:49:49.056 520b Level-0 table #120: started
+2018/12/13-14:49:49.117 520b Level-0 table #120: 15451674 bytes OK
+2018/12/13-14:49:49.122 520b Delete type=0 #117
+2018/12/13-14:49:49.188 520b Generated table #121@0: 7 keys, 13766434 bytes
+2018/12/13-14:49:49.253 520b Generated table #122@0: 1 keys, 15451510 bytes
+2018/12/13-14:49:49.256 520b Generated table #123@0: 8 keys, 2025 bytes
+2018/12/13-14:49:49.256 520b Compacted 4@0 + 0@1 files => 29219969 bytes
+2018/12/13-14:49:49.260 520b compacted to: files[ 1 3 3 0 0 0 0 ]
+2018/12/13-14:49:49.260 520b Delete type=2 #118
+2018/12/13-14:49:49.262 520b Delete type=2 #116
+2018/12/13-14:49:49.264 520b Delete type=2 #114
+2018/12/13-14:49:49.266 520b Delete type=2 #107
+2018/12/13-14:49:49.268 520b Compacting 1@1 + 1@2 files
+2018/12/13-14:49:49.272 520b Generated table #124@1: 8 keys, 2025 bytes
+2018/12/13-14:49:49.272 520b Compacted 1@1 + 1@2 files => 2025 bytes
+2018/12/13-14:49:49.275 520b compacted to: files[ 1 2 3 0 0 0 0 ]
+2018/12/13-14:49:49.275 520b Delete type=2 #123
+2018/12/13-14:49:49.276 520b Delete type=2 #110
+2018/12/13-14:49:49.276 520b Compacting 1@1 + 1@2 files
+2018/12/13-14:49:49.349 520b Generated table #125@1: 58 keys, 13767420 bytes
+2018/12/13-14:49:49.351 520b Compacted 1@1 + 1@2 files => 13767420 bytes
+2018/12/13-14:49:49.354 520b compacted to: files[ 1 1 3 0 0 0 0 ]
+2018/12/13-14:49:49.354 520b Delete type=2 #121
+2018/12/13-14:49:49.356 520b Delete type=2 #111
+2018/12/13-14:49:49.358 520b Compacting 1@1 + 1@2 files
+2018/12/13-14:49:49.437 520b Generated table #126@1: 1 keys, 15451510 bytes
+2018/12/13-14:49:49.439 520b Compacted 1@1 + 1@2 files => 15451510 bytes
+2018/12/13-14:49:49.443 520b compacted to: files[ 1 0 3 0 0 0 0 ]
+2018/12/13-14:49:49.443 520b Delete type=2 #122
+2018/12/13-14:49:49.445 520b Delete type=2 #112
+2018/12/13-15:29:51.111 520b Level-0 table #128: started
+2018/12/13-15:29:51.156 7539 Current memtable full; waiting...
+2018/12/13-15:29:51.160 520b Level-0 table #128: 13716590 bytes OK
+2018/12/13-15:29:51.164 520b Delete type=0 #119
+2018/12/13-15:29:51.166 520b Level-0 table #130: started
+2018/12/13-15:29:51.228 520b Level-0 table #130: 15451673 bytes OK
+2018/12/13-15:29:51.232 520b Delete type=0 #127
+2018/12/13-15:59:53.814 520b Level-0 table #132: started
+2018/12/13-15:59:53.853 7706 Current memtable full; waiting...
+2018/12/13-15:59:53.864 520b Level-0 table #132: 13766831 bytes OK
+2018/12/13-15:59:53.870 520b Delete type=0 #129
+2018/12/13-15:59:53.875 520b Compacting 4@0 + 0@1 files
+2018/12/13-15:59:53.901 520b Level-0 table #134: started
+2018/12/13-15:59:53.959 520b Level-0 table #134: 15451673 bytes OK
+2018/12/13-15:59:53.964 520b Delete type=0 #131
+2018/12/13-15:59:54.028 520b Generated table #135@0: 7 keys, 13766433 bytes
+2018/12/13-15:59:54.090 520b Generated table #136@0: 1 keys, 15451511 bytes
+2018/12/13-15:59:54.095 520b Generated table #137@0: 6 keys, 565 bytes
+2018/12/13-15:59:54.095 520b Compacted 4@0 + 0@1 files => 29218509 bytes
+2018/12/13-15:59:54.102 520b compacted to: files[ 1 3 3 0 0 0 0 ]
+2018/12/13-15:59:54.102 520b Delete type=2 #128
+2018/12/13-15:59:54.107 520b Delete type=2 #132
+2018/12/13-15:59:54.112 520b Delete type=2 #130
+2018/12/13-15:59:54.118 520b Delete type=2 #120
+2018/12/13-15:59:54.122 520b Compacting 1@1 + 1@2 files
+2018/12/13-15:59:54.126 520b Generated table #138@1: 8 keys, 2025 bytes
+2018/12/13-15:59:54.126 520b Compacted 1@1 + 1@2 files => 2025 bytes
+2018/12/13-15:59:54.130 520b compacted to: files[ 1 2 3 0 0 0 0 ]
+2018/12/13-15:59:54.130 520b Delete type=2 #137
+2018/12/13-15:59:54.130 520b Delete type=2 #124
+2018/12/13-15:59:54.130 520b Compacting 1@1 + 1@2 files
+2018/12/13-15:59:54.206 520b Generated table #139@1: 58 keys, 13767419 bytes
+2018/12/13-15:59:54.207 520b Compacted 1@1 + 1@2 files => 13767419 bytes
+2018/12/13-15:59:54.211 520b compacted to: files[ 1 1 3 0 0 0 0 ]
+2018/12/13-15:59:54.211 520b Delete type=2 #125
+2018/12/13-15:59:54.213 520b Delete type=2 #135
+2018/12/13-15:59:54.215 520b Compacting 1@1 + 1@2 files
+2018/12/13-15:59:54.291 520b Generated table #140@1: 1 keys, 15451511 bytes
+2018/12/13-15:59:54.293 520b Compacted 1@1 + 1@2 files => 15451511 bytes
+2018/12/13-15:59:54.297 520b compacted to: files[ 1 0 3 0 0 0 0 ]
+2018/12/13-15:59:54.297 520b Delete type=2 #136
+2018/12/13-15:59:54.299 520b Delete type=2 #126
+2018/12/13-16:29:56.217 520b Level-0 table #142: started
+2018/12/13-16:29:56.266 7997 Current memtable full; waiting...
+2018/12/13-16:29:56.279 520b Level-0 table #142: 13716592 bytes OK
+2018/12/13-16:29:56.282 520b Delete type=0 #133
+2018/12/13-16:29:56.285 520b Level-0 table #144: started
+2018/12/13-16:29:56.358 520b Level-0 table #144: 15451674 bytes OK
+2018/12/13-16:29:56.362 520b Delete type=0 #141
+2018/12/13-17:09:58.943 520b Level-0 table #146: started
+2018/12/13-17:09:58.987 7996 Current memtable full; waiting...
+2018/12/13-17:09:58.992 520b Level-0 table #146: 13716591 bytes OK
+2018/12/13-17:09:58.998 520b Delete type=0 #143
+2018/12/13-17:09:59.000 520b Compacting 4@0 + 0@1 files
+2018/12/13-17:09:59.014 520b Level-0 table #148: started
+2018/12/13-17:09:59.073 520b Level-0 table #148: 15451674 bytes OK
+2018/12/13-17:09:59.078 520b Delete type=0 #145
+2018/12/13-17:09:59.130 520b Generated table #149@0: 5 keys, 13716246 bytes
+2018/12/13-17:09:59.210 520b Generated table #150@0: 1 keys, 15451512 bytes
+2018/12/13-17:09:59.213 520b Generated table #151@0: 4 keys, 538 bytes
+2018/12/13-17:09:59.213 520b Compacted 4@0 + 0@1 files => 29168296 bytes
+2018/12/13-17:09:59.217 520b compacted to: files[ 1 3 3 0 0 0 0 ]
+2018/12/13-17:09:59.217 520b Delete type=2 #142
+2018/12/13-17:09:59.220 520b Delete type=2 #144
+2018/12/13-17:09:59.223 520b Delete type=2 #134
+2018/12/13-17:09:59.226 520b Delete type=2 #146
+2018/12/13-17:09:59.229 520b Compacting 1@1 + 1@2 files
+2018/12/13-17:09:59.232 520b Generated table #152@1: 8 keys, 2025 bytes
+2018/12/13-17:09:59.233 520b Compacted 1@1 + 1@2 files => 2025 bytes
+2018/12/13-17:09:59.236 520b compacted to: files[ 1 2 3 0 0 0 0 ]
+2018/12/13-17:09:59.236 520b Delete type=2 #138
+2018/12/13-17:09:59.236 520b Delete type=2 #151
+2018/12/13-17:09:59.236 520b Compacting 1@1 + 1@2 files
+2018/12/13-17:09:59.304 520b Generated table #153@1: 58 keys, 13767420 bytes
+2018/12/13-17:09:59.305 520b Compacted 1@1 + 1@2 files => 13767420 bytes
+2018/12/13-17:09:59.309 520b compacted to: files[ 1 1 3 0 0 0 0 ]
+2018/12/13-17:09:59.309 520b Delete type=2 #139
+2018/12/13-17:09:59.311 520b Delete type=2 #149
+2018/12/13-17:09:59.313 520b Compacting 1@1 + 1@2 files
+2018/12/13-17:09:59.392 520b Generated table #154@1: 1 keys, 15451512 bytes
+2018/12/13-17:09:59.394 520b Compacted 1@1 + 1@2 files => 15451512 bytes
+2018/12/13-17:09:59.397 520b compacted to: files[ 1 0 3 0 0 0 0 ]
+2018/12/13-17:09:59.397 520b Delete type=2 #140
+2018/12/13-17:09:59.399 520b Delete type=2 #150
+2018/12/13-17:17:54.014 520b Level-0 table #156: started
+2018/12/13-17:17:54.060 7cb7 Current memtable full; waiting...
+2018/12/13-17:17:54.076 520b Level-0 table #156: 13768309 bytes OK
+2018/12/13-17:17:54.081 520b Delete type=0 #147
+2018/12/13-17:17:54.083 520b Level-0 table #158: started
+2018/12/13-17:17:54.146 520b Level-0 table #158: 15451675 bytes OK
+2018/12/13-17:17:54.151 520b Delete type=0 #155
+2018/12/13-19:08:04.061 520b Level-0 table #160: started
+2018/12/13-19:08:04.104 3d7 Current memtable full; waiting...
+2018/12/13-19:08:04.117 520b Level-0 table #160: 13766833 bytes OK
+2018/12/13-19:08:04.122 520b Delete type=0 #157
+2018/12/13-19:08:04.124 520b Compacting 4@0 + 0@1 files
+2018/12/13-19:08:04.124 520b Level-0 table #163: started
+2018/12/13-19:08:04.194 520b Level-0 table #163: 15451674 bytes OK
+2018/12/13-19:08:04.201 520b Delete type=0 #159
+2018/12/13-19:08:04.285 520b Generated table #162@0: 7 keys, 13766434 bytes
+2018/12/13-19:08:04.346 520b Generated table #164@0: 1 keys, 15451512 bytes
+2018/12/13-19:08:04.351 520b Generated table #165@0: 8 keys, 2358 bytes
+2018/12/13-19:08:04.351 520b Compacted 4@0 + 0@1 files => 29220304 bytes
+2018/12/13-19:08:04.354 520b compacted to: files[ 1 3 3 0 0 0 0 ]
+2018/12/13-19:08:04.354 520b Delete type=2 #148
+2018/12/13-19:08:04.357 520b Delete type=2 #158
+2018/12/13-19:08:04.359 520b Delete type=2 #160
+2018/12/13-19:08:04.361 520b Delete type=2 #156
+2018/12/13-19:08:04.363 520b Compacting 1@1 + 1@2 files
+2018/12/13-19:08:04.367 520b Generated table #166@1: 8 keys, 2358 bytes
+2018/12/13-19:08:04.367 520b Compacted 1@1 + 1@2 files => 2358 bytes
+2018/12/13-19:08:04.370 520b compacted to: files[ 1 2 3 0 0 0 0 ]
+2018/12/13-19:08:04.370 520b Delete type=2 #152
+2018/12/13-19:08:04.370 520b Delete type=2 #165
+2018/12/13-19:08:04.370 520b Compacting 1@1 + 1@2 files
+2018/12/13-19:08:04.444 520b Generated table #167@1: 58 keys, 13767419 bytes
+2018/12/13-19:08:04.446 520b Compacted 1@1 + 1@2 files => 13767419 bytes
+2018/12/13-19:08:04.450 520b compacted to: files[ 1 1 3 0 0 0 0 ]
+2018/12/13-19:08:04.450 520b Delete type=2 #162
+2018/12/13-19:08:04.453 520b Delete type=2 #153
+2018/12/13-19:08:04.455 520b Compacting 1@1 + 1@2 files
+2018/12/13-19:08:04.539 520b Generated table #168@1: 1 keys, 15451512 bytes
+2018/12/13-19:08:04.541 520b Compacted 1@1 + 1@2 files => 15451512 bytes
+2018/12/13-19:08:04.545 520b compacted to: files[ 1 0 3 0 0 0 0 ]
+2018/12/13-19:08:04.545 520b Delete type=2 #154
+2018/12/13-19:08:04.547 520b Delete type=2 #164
+2018/12/13-19:38:06.739 520b Level-0 table #170: started
+2018/12/13-19:38:06.783 520b Level-0 table #170: 13716593 bytes OK
+2018/12/13-19:38:06.788 520b Delete type=0 #161
+2018/12/13-19:38:06.799 520b Level-0 table #172: started
+2018/12/13-19:38:06.858 520b Level-0 table #172: 15451674 bytes OK
+2018/12/13-19:38:06.863 520b Delete type=0 #169
+2018/12/13-20:28:08.899 520b Level-0 table #174: started
+2018/12/13-20:28:08.938 b6d Current memtable full; waiting...
+2018/12/13-20:28:08.949 520b Level-0 table #174: 13766833 bytes OK
+2018/12/13-20:28:08.955 520b Delete type=0 #171
+2018/12/13-20:28:08.959 520b Compacting 4@0 + 0@1 files
+2018/12/13-20:28:08.984 520b Level-0 table #176: started
+2018/12/13-20:28:09.044 520b Level-0 table #176: 15451675 bytes OK
+2018/12/13-20:28:09.049 520b Delete type=0 #173
+2018/12/13-20:28:09.112 520b Generated table #177@0: 7 keys, 13766437 bytes
+2018/12/13-20:28:09.174 520b Generated table #178@0: 1 keys, 15451512 bytes
+2018/12/13-20:28:09.179 520b Generated table #179@0: 6 keys, 565 bytes
+2018/12/13-20:28:09.179 520b Compacted 4@0 + 0@1 files => 29218514 bytes
+2018/12/13-20:28:09.183 520b compacted to: files[ 1 3 3 0 0 0 0 ]
+2018/12/13-20:28:09.183 520b Delete type=2 #172
+2018/12/13-20:28:09.185 520b Delete type=2 #163
+2018/12/13-20:28:09.187 520b Delete type=2 #174
+2018/12/13-20:28:09.189 520b Delete type=2 #170
+2018/12/13-20:28:09.191 520b Compacting 1@1 + 1@2 files
+2018/12/13-20:28:09.194 520b Generated table #180@1: 8 keys, 2358 bytes
+2018/12/13-20:28:09.194 520b Compacted 1@1 + 1@2 files => 2358 bytes
+2018/12/13-20:28:09.197 520b compacted to: files[ 1 2 3 0 0 0 0 ]
+2018/12/13-20:28:09.197 520b Delete type=2 #179
+2018/12/13-20:28:09.198 520b Delete type=2 #166
+2018/12/13-20:28:09.198 520b Compacting 1@1 + 1@2 files
+2018/12/13-20:28:09.267 520b Generated table #181@1: 58 keys, 13767423 bytes
+2018/12/13-20:28:09.269 520b Compacted 1@1 + 1@2 files => 13767423 bytes
+2018/12/13-20:28:09.273 520b compacted to: files[ 1 1 3 0 0 0 0 ]
+2018/12/13-20:28:09.273 520b Delete type=2 #167
+2018/12/13-20:28:09.275 520b Delete type=2 #177
+2018/12/13-20:28:09.277 520b Compacting 1@1 + 1@2 files
+2018/12/13-20:28:09.351 520b Generated table #182@1: 1 keys, 15451512 bytes
+2018/12/13-20:28:09.354 520b Compacted 1@1 + 1@2 files => 15451512 bytes
+2018/12/13-20:28:09.358 520b compacted to: files[ 1 0 3 0 0 0 0 ]
+2018/12/13-20:28:09.358 520b Delete type=2 #168
+2018/12/13-20:28:09.362 520b Delete type=2 #178
+2018/12/13-20:58:10.083 520b Level-0 table #184: started
+2018/12/13-20:58:10.128 b0d Current memtable full; waiting...
+2018/12/13-20:58:10.139 520b Level-0 table #184: 13716593 bytes OK
+2018/12/13-20:58:10.144 520b Delete type=0 #175
+2018/12/13-20:58:10.146 520b Level-0 table #186: started
+2018/12/13-20:58:10.210 520b Level-0 table #186: 15451676 bytes OK
+2018/12/13-20:58:10.214 520b Delete type=0 #183
+2018/12/13-21:28:13.148 520b Level-0 table #188: started
+2018/12/13-21:28:13.193 10f2 Current memtable full; waiting...
+2018/12/13-21:28:13.217 520b Level-0 table #188: 13716592 bytes OK
+2018/12/13-21:28:13.222 520b Delete type=0 #185
+2018/12/13-21:28:13.225 520b Compacting 4@0 + 0@1 files
+2018/12/13-21:28:13.243 520b Level-0 table #190: started
+2018/12/13-21:28:13.305 520b Level-0 table #190: 15451675 bytes OK
+2018/12/13-21:28:13.309 520b Delete type=0 #187
+2018/12/13-21:28:13.372 520b Generated table #191@0: 5 keys, 13716247 bytes
+2018/12/13-21:28:13.446 520b Generated table #192@0: 1 keys, 15451514 bytes
+2018/12/13-21:28:13.450 520b Generated table #193@0: 4 keys, 538 bytes
+2018/12/13-21:28:13.450 520b Compacted 4@0 + 0@1 files => 29168299 bytes
+2018/12/13-21:28:13.454 520b compacted to: files[ 1 3 3 0 0 0 0 ]
+2018/12/13-21:28:13.454 520b Delete type=2 #184
+2018/12/13-21:28:13.460 520b Delete type=2 #188
+2018/12/13-21:28:13.465 520b Delete type=2 #186
+2018/12/13-21:28:13.471 520b Delete type=2 #176
+2018/12/13-21:28:13.478 520b Compacting 1@1 + 1@2 files
+2018/12/13-21:28:13.482 520b Generated table #194@1: 8 keys, 2358 bytes
+2018/12/13-21:28:13.482 520b Compacted 1@1 + 1@2 files => 2358 bytes
+2018/12/13-21:28:13.486 520b compacted to: files[ 1 2 3 0 0 0 0 ]
+2018/12/13-21:28:13.486 520b Delete type=2 #193
+2018/12/13-21:28:13.487 520b Delete type=2 #180
+2018/12/13-21:28:13.487 520b Compacting 1@1 + 1@2 files
+2018/12/13-21:28:13.611 520b Generated table #195@1: 58 keys, 13767423 bytes
+2018/12/13-21:28:13.613 520b Compacted 1@1 + 1@2 files => 13767423 bytes
+2018/12/13-21:28:13.620 520b compacted to: files[ 1 1 3 0 0 0 0 ]
+2018/12/13-21:28:13.620 520b Delete type=2 #191
+2018/12/13-21:28:13.623 520b Delete type=2 #181
+2018/12/13-21:28:13.625 520b Compacting 1@1 + 1@2 files
+2018/12/13-21:28:13.705 520b Generated table #196@1: 1 keys, 15451514 bytes
+2018/12/13-21:28:13.707 520b Compacted 1@1 + 1@2 files => 15451514 bytes
+2018/12/13-21:28:13.711 520b compacted to: files[ 1 0 3 0 0 0 0 ]
+2018/12/13-21:28:13.711 520b Delete type=2 #192
+2018/12/13-21:28:13.713 520b Delete type=2 #182
+2018/12/13-22:08:15.101 520b Level-0 table #198: started
+2018/12/13-22:08:15.144 1389 Current memtable full; waiting...
+2018/12/13-22:08:15.156 520b Level-0 table #198: 13720812 bytes OK
+2018/12/13-22:08:15.161 520b Delete type=0 #189
+2018/12/13-22:08:15.164 520b Level-0 table #200: started
+2018/12/13-22:08:15.228 520b Level-0 table #200: 15451675 bytes OK
+2018/12/13-22:08:15.233 520b Delete type=0 #197

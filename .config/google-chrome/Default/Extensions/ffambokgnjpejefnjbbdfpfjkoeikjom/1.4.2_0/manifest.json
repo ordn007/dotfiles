@@ -1,0 +1,39 @@
+{
+   "background": {
+      "scripts": [ "js/background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "icons/icon19.png",
+      "default_popup": "src/popup/popup.html",
+      "default_title": "ceev"
+   },
+   "content_scripts": [ {
+      "js": [ "js/jquery/jquery.min.js" ],
+      "matches": [ "https://linkedin.com/*", "http://linkedin.com/*" ],
+      "run_at": "document_end"
+   }, {
+      "js": [ "js/extension.js" ],
+      "matches": [ "https://ceev.io/" ],
+      "run_at": "document_end"
+   }, {
+      "js": [ "js/transfer.js" ],
+      "matches": [ "https://ceev.io/create/linkedin" ],
+      "run_at": "document_end"
+   } ],
+   "default_locale": "en",
+   "description": "Instantly turn your LinkedIn profile into an attractive resume.",
+   "homepage_url": "http://ceev.io",
+   "icons": {
+      "128": "icons/icon128.png",
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAjyDBZBbMeYL144NLR+WX9SC8leryGAPMLU8AZHGSeLQbqe+PskIwkkOUXcKmojXlDTRMvNeIX+18YX+jDBCXBJp7ODeiwQPRaEKMf8scRh+8OVbYoFXvEYN99nMWEOg2FDJZ7iyEGoGR1OT7Dqig+FRkUVXkv2qVYNL3DKsFHux1MMeaFu7+vANtBcbAmM5k5ZpEBA9zsb5A8SDDW+yqbO5z+TlR7FYQvgOl5U48MacwHtivn3NKSqYbhgT1XbdeZGybB62omR6e9z8eozLvGxd3IglnmH7GQmDV1821i2AA+0L5ADs6QPUnui4Zi/TENG9IbRmwwc+bi7VcPkTrVwIDAQAB",
+   "manifest_version": 2,
+   "name": "Ceev - Linkedin Resume Creator",
+   "permissions": [ "activeTab", "storage" ],
+   "short_name": "Ceev",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.4.2",
+   "web_accessible_resources": [ "src/*" ]
+}

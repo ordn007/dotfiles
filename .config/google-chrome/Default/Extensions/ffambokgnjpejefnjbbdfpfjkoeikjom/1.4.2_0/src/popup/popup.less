@@ -1,0 +1,217 @@
+// out: popup.css, compress: true
+
+@import "../variables.less";
+
+*,
+*:hover,
+*:active{
+    outline: none;
+}
+
+html,body{
+    /* background: linear-gradient(to bottom, rgb(237, 242, 255) 0%, #fff 65%); */
+    background-color: #fff;
+    padding: 0;
+    margin: 0;
+    border: none;
+    box-shadow: none;
+    font-family: @poppins;
+}
+.ceev-popup{
+    width: 280px;
+    height: 200px;
+    box-sizing: border-box;
+    padding: 0px;
+    position:relative;
+}
+
+
+#openCeevPlus,
+#closeCeevPlus{
+    font-size: 22px;
+    color: #FFB35D;
+    position: absolute;
+    top: -2px;
+    left: 0;
+    width: auto;
+    height: auto;
+    transition: @transition;
+    font-family: @poppins;
+    font-weight: 900;
+    line-height: 13px;
+    padding-top: 9px;
+    padding-left: 6px;
+
+    &:hover{
+        cursor: pointer;
+        color: @green;
+        transition: @transition;
+    }
+}
+
+#closeCeevPlus{
+    transform: rotate(45deg);
+    top: -3px;
+    left: 3px;
+    font-size: 22px;
+    color: @darkertext;
+}
+
+
+
+
+
+/* Not on linkedin - popup */
+.ceev-popup-body{
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 10px 0 15px 0;
+}
+
+    .ceev-popup-logo{
+        display: block;
+        width: 100%;
+    }
+        .ceev-popup-logo img{
+            display: block;
+            margin: 6px auto 0 auto;
+            height: 40px;
+            width: auto;
+        }
+
+    .ceev-popup-body h1{
+        margin: 0;
+        padding: 0;
+        text-transform: lowercase;
+        color: rgba(0,0,50,0.8);
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 20px;
+        letter-spacing: -0.3px;
+        // margin: 13px auto 13px auto;
+        margin: 0 auto;
+        max-width: 210px;
+        display: block;
+    }
+    .ceev-popup-body h2{
+        margin: 0;
+        padding: 0 20px;
+        box-sizing: border-box;
+        text-transform: lowercase;
+        color: rgba(0,0,50,0.8);
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 16px;
+        color: rgba(5,10,60,0.55);
+        letter-spacing: -0.3px;
+        // margin: 13px auto 13px auto;
+        display: block;
+    }
+    .ceev-popup-body small{
+        font-size: 10px;
+        font-weight: 500;
+        box-sizing: border-box;
+        padding: 0 20px;
+        color: rgba(0,0,50,0.35);
+        line-height: 14px;
+    }
+    .ceev-popup-action{
+        background-color: @blue;
+        display: block;
+        width: 70%;
+        margin: 0 auto;
+        font-size: 14px;
+        color: white;
+        font-weight: 600;
+        transition: 0.2s;
+        text-decoration: none;
+        border-radius: 4px;
+        letter-spacing: 0.85px;
+        padding: 10px 10px 10px 10px;
+        box-shadow: @baseShadow;
+    }
+        .ceev-popup-action:hover{
+            background-color: @blue;
+            transition: 0.2s;
+            cursor: pointer;
+            position: relative;
+            box-shadow: @hoverShadow;
+        }
+
+    .ceev-popup-footer{
+        padding-top: 10px;
+        display: flex;
+        justify-content: space-around;
+
+        a{
+            font-size: 12px;
+            text-decoration: none;
+            transition: @transition;
+            font-weight: 600;
+            color: rgba(0,0,30,0.3);
+        }
+    }
+
+
+
+// Ceev Plus Upgrade
+#ceevPlus{
+    // display: flex;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-sizing: border-box;
+    background-color: white;
+
+    .ceev-popup-logo img{
+        height: 23px;
+    }
+
+    #ceevPlusForm{
+        display: block;
+        width: 100%;
+        padding: 15px 30px 0 30px;
+        box-sizing: border-box;
+
+        input[type=text]{
+            display: block;
+            width: 100%;
+            box-sizing: border-box;
+            padding: 10px 5px;
+            border: 1px solid rgba(0,0,30,0.11);
+            font-weight: 600;
+            text-align: center;
+            border-radius: 5px;
+            font-size: 19px;
+            letter-spacing: 2px;
+            font-family: monospace;
+        }
+
+        input[type=submit]{
+            border: none;
+            width: 100%;
+            text-align: center;
+            margin-top: 10px;
+            padding: 10px 10px 10px 10px;
+            margin-bottom: 0px;
+            font-family: @poppins;
+
+            &.invalid-key{
+                background-color: @red;
+            }
+            &.valid-key{
+                background-color: @green;
+            }
+        }
+    }
+
+}

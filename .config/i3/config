@@ -1,0 +1,456 @@
+# vim: filetype=i3
+#   ____  ____  _____  _____ ___    __
+#  /    \|  _ \|  _  \|----- ||\\   ||
+# |      | |_) | | }  |_____ || \\  ||
+# |      |  _ <|  -   |----- ||  \\ ||
+#  \____/\_| \_\_____/|_____ ||   \\||
+#
+# File originally by Orden Aitchedji
+# Website: https://Linkedn.com/in/oaitchedji
+# Email: oaitchedji@mines.edu
+# Github: https://github.com/ordn007
+
+# #---Basic Definitions---# #
+# Needed for i3-gaps
+for_window [class="^.*"] border pixel 2
+gaps inner 15
+gaps outer 15
+#set $term --no-startup-id $TERMINAL
+set $mod Mod4
+set $shutdown sudo -A shutdown -h now
+set $reboot sudo -A reboot
+set $netrefresh --no-startup-id sudo -A systemctl restart NetworkManager
+set $hibernate sudo -A systemctl suspend
+
+
+#####################################################################################################################
+#################                                 Color Variables                                   #################
+#####################################################################################################################
+
+
+set $bg-color               #2f343f
+set $inactive-bg-color      #2f343f
+set $text-color             #f3f4f5
+set $inactive-text-color    #676E7D
+set $urgent-bg-color        #E53935
+
+set $color_White            #FFFFFF
+set $color_Silver           #C0C0C0
+set $color_Gray             #808080
+set $color_Black            #000000
+set $color_Red              #FF0000
+set $color_Red_2            #ab0300
+set $color_Maroon           #800000
+set $color_Yellow           #FFFF00
+set $color_Olive            #808000
+set $color_Lime             #00FF00
+set $color_Green            #008000
+set $color_Green_2          #53ab00
+set $color_Aqua             #00FFFF
+set $color_Teal             #008080
+set $color_Blue             #0000FF
+set $color_Navy             #000080
+set $color_Fuchsia          #FF00FF
+set $color_Purple           #800080
+set $color_Shading          #4d4d4d
+set $color_Teal             #00a7ab
+
+set $color_IndianRed        #CD5C5C
+set $color_LightCoral       #F08080
+set $color_Salmon           #FA8072
+set $color_DarkSalmon       #E9967A
+set $color_LightSalmon      #FFA07A
+
+
+#####################################################################################################################
+#################                      # #---Starting External Scripts---# #                        #################
+#####################################################################################################################
+
+
+# Setting the background and colorscheme.
+exec_always --no-startup-id wal -i ~/.config/wall.png
+
+# Composite manager:
+#exec --no-startup-id compton
+
+# Unclutter makes the mouse invisible after a brief period
+exec --no-startup-id unclutter
+
+# Network manager applet
+exec --no-startup-id nm-applet
+
+# Blueman manager applet
+exec --no-startup-id blueman-applet
+
+# Start Dropbox
+#exec_always --no-startup-id Dropbox
+#exec dropbox start
+
+# Battery popup
+#exec --no-startup-id ~/.script/i3-battery-popup
+
+# Starts dunst for notifications
+exec_always --no-startup-id dunst
+
+# start a terminal
+bindsym $mod+Return exec i3-sensible-terminal
+bindsym $mod+Shift+Return exec xfce4-terminal
+
+# kill focused window
+bindsym $mod+Shift+q kill
+
+# start dmenu (a program launcher)
+#bindsym $mod+d exec dmenu_run
+bindsym $mod+d exec dmenu_run -i -p "Orden's Arch" -fn 'FontAwesome:bold:pixelsize=25' -nb '#222222' -nf '#ceecee' -sb '#00BCD4' -sf '#222222'
+
+# Only displays applications
+# bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
+
+
+#####################################################################################################################
+#################                          Moving around in i3                                      #################
+#####################################################################################################################
+
+
+# Use Mouse+$mod to drag floating windows to their wanted position
+floating_modifier $mod
+
+# toggle tiling / floating
+bindsym $mod+Shift+space floating toggle
+
+# change focus
+bindsym $mod+j focus left
+bindsym $mod+k focus down
+bindsym $mod+l focus up
+bindsym $mod+semicolon focus right
+
+# alternatively, you can use the cursor keys:
+bindsym $mod+Left focus left
+bindsym $mod+Down focus down
+bindsym $mod+Up focus up
+bindsym $mod+Right focus right
+
+# move focused window
+bindsym $mod+Shift+j move left
+bindsym $mod+Shift+k move down
+bindsym $mod+Shift+l move up
+bindsym $mod+Shift+semicolon move right
+
+# alternatively, you can use the cursor keys:
+bindsym $mod+Shift+Left move left
+bindsym $mod+Shift+Down move down
+bindsym $mod+Shift+Up move up
+bindsym $mod+Shift+Right move right
+
+
+#####################################################################################################################
+#################                          Tiling parameters                                        #################
+#####################################################################################################################
+
+
+# split in horizontal orientation
+bindsym $mod+h split h
+
+# split in vertical orientation
+bindsym $mod+v split v
+
+# enter fullscreen mode for the focused container
+bindsym $mod+f fullscreen toggle
+
+# change container layout (stacked, tabbed, toggle split)
+bindsym $mod+s layout stacking
+bindsym $mod+w layout tabbed
+bindsym $mod+e layout toggle split
+
+# change focus between tiling / floating windows
+bindsym $mod+space focus mode_toggle
+
+# focus the parent container
+# bindsym $mod+a focus parent
+
+# focus the child container
+# bindsym $mod+d focus child
+
+# Define names for default workspaces for which we configure key bindings later on.
+# We use variables to avoid repeating the names in multiple places.
+
+# Customize workspace variable names
+set $ws1 "1:  Editor"
+set $ws2 "2:  Browser"
+set $ws3 "3:  "
+set $ws4 "4: "
+set $ws5 "5: "
+set $ws6 "6:"
+set $ws7 "7:"
+set $ws8 "8:"
+set $ws9 "9:"
+set $ws10 "10: Music "
+
+# switch to workspace
+bindsym $mod+1 workspace $ws1
+bindsym $mod+2 workspace $ws2
+bindsym $mod+3 workspace $ws3
+bindsym $mod+4 workspace $ws4
+bindsym $mod+5 workspace $ws5
+bindsym $mod+6 workspace $ws6
+bindsym $mod+7 workspace $ws7
+bindsym $mod+8 workspace $ws8
+bindsym $mod+9 workspace $ws9
+bindsym $mod+0 workspace $ws10
+
+# move focused container to workspace
+bindsym $mod+Shift+1 move container to workspace $ws1
+bindsym $mod+Shift+2 move container to workspace $ws2
+bindsym $mod+Shift+3 move container to workspace $ws3
+bindsym $mod+Shift+4 move container to workspace $ws4
+bindsym $mod+Shift+5 move container to workspace $ws5
+bindsym $mod+Shift+6 move container to workspace $ws6
+bindsym $mod+Shift+7 move container to workspace $ws7
+bindsym $mod+Shift+8 move container to workspace $ws8
+bindsym $mod+Shift+9 move container to workspace $ws9
+bindsym $mod+Shift+0 move container to workspace $ws10
+
+
+#####################################################################################################################
+#################                          Window Assignment                                        #################
+#####################################################################################################################
+
+
+# Assign application to start on a specific workspace
+# you can find the class with the program xprop
+
+# assign [class="Xfce4-terminal"]                $ws1
+# assign [class="Firefox"]                       $ws2
+
+
+#####################################################################################################################
+#################                           Floating Windows                                        #################
+#####################################################################################################################
+
+
+for_window [class="Xfce4-taskmanager"]      floating enable
+for_window [class="Thunar"]                 floating enable
+for_window [class="Gthumb"]                 floating enable
+for_window [class="Blueman-manager"]        floating enable
+for_window [title="sun-awt-X11-XFramePeer"] floating enable
+for_window [title="MATLAB R2018b - academic use"] floating enable
+for_window [title="Battery Warning"]        sticky enable
+
+
+#for_window [class="QGIS3"]                 floating enable
+#for_window [class="Spyder"]                floating enable
+
+#####################################################################################################################
+#################                           Floating Windows                                        #################
+#####################################################################################################################
+
+# Screenshots
+bindsym Print exec xfce4-screenshooter -r
+
+
+#####################################################################################################################
+#################                             # #---Media Keys---# #                                #################
+#####################################################################################################################
+
+
+# Pulse Audio controls
+bindsym XF86AudioRaiseVolume    exec --no-startup-id pactl set-sink-volume 0 +5%    #increase sound volume
+bindsym XF86AudioLowerVolume    exec --no-startup-id pactl set-sink-volume 0 -5%    #decrease sound volume
+bindsym XF86AudioMute           exec --no-startup-id pactl set-sink-mute 0 toggle   #mute sound
+
+# Media player controls
+bindsym XF86AudioPlay   exec playerctl play
+bindsym XF86AudioPause  exec playerctl pause
+bindsym XF86AudioNext   exec playerctl next
+bindsym XF86AudioPrev   exec playerctl previous
+
+# Screen brightness controls
+# bindsym XF86MonBrightnessUp 	exec light -A 10 # increase screen brightness
+# bindsym XF86MonBrightnessDown	exec light -U 10 # decrease screen brightness
+bindsym XF86MonBrightnessUp exec xbacklight -inc 20 # increase screen brightness
+bindsym XF86MonBrightnessDown exec xbacklight -dec 20 # decrease screen brightness
+
+# Touchpad controls
+bindsym XF86TouchpadToggle exec ~/.script/toggletouchpad.sh   # toggle touchpad
+
+# Set Background
+#exec_always --no-startup-id feh --bg-scale ~/Documents/Images/walls/Just-Grey.png
+#exec_always --no-startup-id feh --bg-scale ~/Documents/Images/walls/Attack-on-titans.png
+exec_always --no-startup-id feh --bg-scale ~/Documents/Images/walls/silhouette.jpg
+# exec_always --no-startup-id feh --bg-scale ~/Documents/Images/walls/leopard.jpg
+#exec_always --no-startup-id feh --bg-scale ~/Documents/Images/walls/redFacet.jpg
+#exec_always --no-startup-id feh --bg-scale ~/Documents/Images/walls/spiral.jpg
+#exec_always --no-startup-id feh --bg-scale ~/Documents/Images/walls/colorBars.png
+#exec_always --no-startup-id feh --bg-scale ~/Documents/Images/walls/DYm1aqo.jpg
+# exec_always --no-startup-id feh --bg-scale ~/Documents/Images/walls/waveCell.jpg
+
+# reload the configuration file
+bindsym $mod+Shift+c reload
+
+# restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
+bindsym $mod+Shift+r restart
+
+#####################################################################################################################
+#################                          how to exit, logoff, suspend, ...                        #################
+#####################################################################################################################
+
+# exit i3 (logs you out of your X session)
+bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
+
+
+#Press $mod (super) and X to exit - check toolbar for next choices
+#bindsym control+mod1+Delete mode "$mode_system"
+bindsym $mod+X mode "$mode_system"
+
+
+set $mode_system System (k) lock, (l) logout, (u) suspend, (h) hibernate, (r) reboot, (s) shutdown
+mode "$mode_system" {
+    bindsym k exec --no-startup-id ~/.scripts/i3exit lock, mode "default"
+    bindsym l exec --no-startup-id ~/.scripts/i3exit logout, mode "default"
+    bindsym u exec --no-startup-id ~/.scripts/i3exit suspend, mode "default"
+    bindsym h exec --no-startup-id ~/.scripts/i3exit hibernate, mode "default"
+    bindsym r exec --no-startup-id ~/.scripts/i3exit reboot, mode "default"
+    bindsym s exec --no-startup-id ~/.scripts/i3exit shutdown, mode "default"
+
+    # back to normal: Enter or Escape
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
+}
+
+
+
+#####################################################################################################################
+#################                          resize                                                   #################
+#####################################################################################################################
+
+
+# resize window (you can also use the mouse for that)
+
+bindsym $mod+r mode "resize"
+
+mode "resize" {
+        # These bindings trigger as soon as you enter the resize mode
+
+        # Pressing left will shrink the window’s width.
+        # Pressing right will grow the window’s width.
+        # Pressing up will shrink the window’s height.
+        # Pressing down will grow the window’s height.
+        bindsym j resize shrink width 10 px or 10 ppt
+        bindsym k resize grow height 10 px or 10 ppt
+        bindsym l resize shrink height 10 px or 10 ppt
+        bindsym semicolon resize grow width 10 px or 10 ppt
+
+        # same bindings, but for the arrow keys
+        bindsym Left resize shrink width 10 px or 10 ppt
+        bindsym Down resize grow height 10 px or 10 ppt
+        bindsym Up resize shrink height 10 px or 10 ppt
+        bindsym Right resize grow width 10 px or 10 ppt
+
+        # back to normal: Enter or Escape or $mod+r
+        bindsym Return mode "default"
+        bindsym Escape mode "default"
+        bindsym $mod+r mode "default"
+}
+
+
+
+#####################################################################################################################
+#################                          choose the font                                          #################
+#####################################################################################################################
+
+# Font for window titles. Will also be used by the bar unless a different font
+# is used in the bar {} block below.
+# choose your font
+#font pango:Noto Mono Regular 13
+
+
+
+
+# Start i3bar to display a workspace bar (plus the system information i3status
+# finds out, if available)
+
+#####################################################################################################################
+#####################################################################################################################
+#####################################################################################################################
+#################                          bar appearance                                           #################
+#####################################################################################################################
+#####################################################################################################################
+#####################################################################################################################
+
+#Polybar
+exec_always --no-startup-id ~/.config/polybar/launch.sh &
+
+
+#Custom i3bars
+#bar {
+#
+#    height 41
+#    workspace_buttons yes
+#    #mode invisible
+#
+#    #font pango:Noto Sans 16
+#    #font pango:Cousine, Font Awesome bold 15
+#    #font pango:FontAwesome bold 16
+#    font xft:Cousine, FontAwesome bold 16
+#
+#    #position top
+#    position bottom
+#
+#    #tray_output $firstMonitor
+#    #tray_output $secondMonitor
+#
+## OPTION 1 : i3status
+#
+#    # type status_command i3status without the config file and
+#    # you will get the standard i3status bar
+#    # Second one is the standard statusbar with my personal settings
+#
+##status_command i3status
+##status_command i3status -c ~/.config/i3/i3status.conf
+#
+#
+## OPTION 2 : i3blocks
+#
+#    # https://github.com/vivien/i3blocks
+#    # another way to provide text in the statusbar
+#    # put hastag in front if not installed
+#
+##status_command i3blocks
+##status_command i3blocks -c ~/.config/i3/i3blocks.conf
+##status_command i3blocks -c ~/.config/i3/i3blocks-rainbow.conf
+##status_command i3blocks -c ~/.config/i3/i3blocks-original.conf
+##status_command i3blocks -c ~/.config/i3/i3blocks-awesome.conf
+#
+#
+## OPTION 3 : conky
+#
+#    # You can also replace the istatus bar with a conky
+#    # start-conky-i3statusbar.sh is started and conky will follow
+#    # documentation : https://i3wm.org/docs/user-contributed/conky-i3bar.html
+#    # conky configuration is in conky-i3statusbar
+#
+#status_command ~/.config/i3/conkyi3
+##status_command ~/.config/i3/start-rconky-i3statusbar.sh
+#
+## OPTION 4 : polybar
+## polybar is launched elsewhere - search for the word
+## from the opening of the "bar {...}" till the end has to go or hashtagged out
+## in order for the system trayicons to show up in polybar
+#
+#colors {
+#        background #2F2F2F
+#        statusline #eeeeee
+#        separator  #666666
+#        #                     border  backgr. text
+#        focused_workspace     #a9a9a9 #5f676a #eeeeee
+#        active_workspace      #a9a9a9 #5f676a #a9a9a9
+#        inactive_workspace    #a9a9a9 #222222 #a9a9a9
+#        urgent_workspace      #a9a9a9 #d42121 #FFFFFF
+#        }
+#}
+#
+## colors                   BORDER              BACKGROUND          TEXT            INDICATOR
+#client.focused             $color_Aqua         $color_Aqua         $color_Black    $color_White
+#client.focused_inactive    $color_Shading      $color_Shading      $color_Black    $color_White
+#client.unfocused           $color_Shading      $color_Shading      $color_Black    $color_Red
+#client.urgent              $color_Red          $color_Red          $color_White    $color_Red
